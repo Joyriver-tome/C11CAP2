@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/hyeonkang/anaconda3/**)",
+      "Read(//Users/hyeonkang/miniconda3/**)",
+      "Read(//Users/hyeonkang/opt/anaconda3/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/hyeonkang/.pyenv/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(/usr/local/bin/python3.13 -c \"import pandas; print\\(pandas.__version__\\)\")",
+      "Bash(/usr/local/bin/python3.13 -m pip list)",
+      "Bash(/usr/local/bin/python3.13 -m pip install xgboost shap folium -q)",
+      "Bash(/usr/local/bin/python3.13 -c \":*)",
+      "Bash(ls -la /Users/hyeonkang/Hyeon/data_science/course11_Assignment/C11CAP2/*.ipynb)",
+      "Bash(python3 -c \":*)",
+      "Read(//opt/anaconda3/envs/**)",
+      "Bash(conda activate mac_m.c0c1)",
+      "Bash(/opt/anaconda3/envs/mac_m.c0c1/bin/python -c \":*)",
+      "Bash(/opt/anaconda3/envs/mac_m.c0c1/bin/pip list)",
+      "Bash(ls /Users/hyeonkang/Hyeon/data_science/course11_Assignment/C11CAP2/*.joblib /Users/hyeonkang/Hyeon/data_science/course11_Assignment/C11CAP2/model_dataset.csv)",
+      "Bash(/opt/anaconda3/bin/python3 -:*)",
+      "Bash(/opt/anaconda3/envs/mac_m.c0c1/bin/python3 --version)",
+      "Bash(/opt/anaconda3/envs/mac_m.c0c1/bin/python3 -:*)",
+      "Bash(jupyter kernelspec list)",
+      "Bash(/opt/anaconda3/bin/jupyter kernelspec list)",
+      "Bash(/opt/anaconda3/envs/mac_m.c0c1/bin/python -c \"import sys; [print\\(p\\) for p in sys.path]\")",
+      "Bash(/opt/anaconda3/bin/python -:*)",
+      "Bash(/usr/local/bin/python3.13 -c \"import sklearn, xgboost, pandas, numpy, joblib; print\\(''OK - numpy:'', numpy.__version__, ''sklearn:'', sklearn.__version__\\)\")",
+      "Bash(/usr/local/bin/python3.13 -:*)",
+      "Bash(/usr/local/bin/python3.13 -c \"import ipykernel; print\\(''ipykernel ok:'', ipykernel.__version__\\)\")",
+      "Bash(/usr/local/bin/python3.13 -m ipykernel install --user --name python313 --display-name \"Python 3.13 \\(system\\)\")",
+      "Bash(/opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=python313 --ExecutePreprocessor.timeout=1200 00_Medicare_Spending.ipynb)",
+      "Bash(brew install libomp)",
+      "Bash(/usr/local/bin/python3.13 -c \"import xgboost; print\\(''XGBoost OK:'', xgboost.__version__\\)\")",
+      "Bash(/opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=python313 --ExecutePreprocessor.timeout=1200 --output 00_Medicare_Spending.ipynb 00_Medicare_Spending.ipynb)"
+    ]
+  }
+}
